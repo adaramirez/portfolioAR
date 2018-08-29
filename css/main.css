@@ -1,0 +1,74 @@
+/*HEADER*/
+.navbar:not(.top-nav-collapse) {
+    background: #bf8293 !important;
+}
+.top-nav-collapse {
+    background-color: #bf8293 !important;
+}
+
+h1 {
+    letter-spacing: 8px;
+}
+h5 {
+    letter-spacing: 3px;
+}
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+
+/*MAIN*/
+#about-me-section{
+    background-image: url("../assets/images/mobile/about-mobile.JPG");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    margin-top: 1em;
+}
+
+#ada-bio{
+    margin-top: -4em;
+}
+
+
+
+/*MEDIA QUERY*/
+@media (min-width: 1300px) {
+    .navbar:not(.top-nav-collapse) {
+        background: transparent !important;
+    }
+
+    #about-me-section{
+        /* The image used */
+        background-image: url("../assets/images/1138.jpg");
+    
+        /* Half height */
+        height: 100%;
+    
+        /* Center and scale the image nicely */
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    h2{
+        margin-top: 5em;
+    }
+    
+    #ada-bio{
+        margin-top: 3em;
+    }
+    
+   
+}
+@media (min-width: 1300px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px;
+    }
+}
