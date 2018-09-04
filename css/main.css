@@ -19,19 +19,25 @@ h5 {
 
 /*MAIN*/
 #about-me-section{
-    background-image: url("../assets/images/mobile/about-mobile.JPG");
-    height: 100%;
+    background-image: url("../assets/images/mobile/aboutme.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: auto;
 }
 
 h2{
     margin-top: 1em;
 }
 
-#ada-bio{
-    margin-top: -4em;
+/*SKILLS*/
+#skills{
+    background-image: url("../assets/images/skills.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
+
+
 
 
 
@@ -42,27 +48,9 @@ h2{
     }
 
     #about-me-section{
-        /* The image used */
-        background-image: url("../assets/images/1138.jpg");
-    
-        /* Half height */
-        height: 100%;
-    
-        /* Center and scale the image nicely */
-        /* background-position: center; */
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url("../assets/images/aboutme.jpg");
     }
-    
-    h2{
-        margin-top: 5em;
-    }
-    
-    #ada-bio{
-        margin-top: 3em;
-    }
-    
-   
+      
 }
 @media (min-width: 1300px) {
     .full-height,
