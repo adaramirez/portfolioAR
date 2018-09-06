@@ -17,6 +17,38 @@ h5 {
     width: 80px;
 }
 
+/*TEXT*/
+h2{
+    font-family: 'Sofia', cursive;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+li{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px; 
+    list-style-type: none;
+}
+
+
+/*SKILLS*/
+.skills-box{
+    background: rgba(247, 247, 247, 0.3);
+}
+
+#skills-container{
+    padding-top: 5.5em;
+}
+
+card.mb-4:hover{
+    background: #030001;
+}
+
+
+
 /*MAIN*/
 #about-me-section{
     background-image: url("../assets/images/mobile/aboutme.jpg");
@@ -37,8 +69,15 @@ h2{
     height: 100%;
 }
 
+/*FOOTER*/
+footer.page-footer.font-small{
+    background-color: #94b1a3;
+}
 
-
+i:hover{
+    background: rgb(226, 121, 203);
+    
+}
 
 
 /*MEDIA QUERY*/
